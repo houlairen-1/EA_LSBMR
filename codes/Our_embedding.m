@@ -108,6 +108,6 @@ for i=1:2:m-1
 end   
 
 stego=uint8(stego);
-figure; imshow(stego==cover); title([num2str(sum(sum(stego~=cover)/m/n/rate)) '   changed '])
+%figure; imshow(stego==cover); title([num2str(sum(sum(stego~=cover)/m/n/rate)) '   changed '])
  
 
